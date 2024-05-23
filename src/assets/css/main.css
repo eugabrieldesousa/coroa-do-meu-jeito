@@ -1,0 +1,255 @@
+@font-face {
+  font-family: burguerking;
+  src: url(/src/assets/font/Flame-Regular.woff);
+}
+
+@font-face {
+  font-family: burguerking-bold;
+  src: url(/src/assets/font/FlameBold.otf);
+}
+
+@font-face {
+  font-family: burguerking-sans;
+  src: url(/src/assets/font/FlameSans.otf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "burguerking";
+}
+
+header {
+  background-color: rgb(245, 235, 220);
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  padding: 2rem 10rem;
+  gap: 3rem;
+  color: #502314;
+}
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 17px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+ul li:hover {
+  color: #ffba31;
+}
+
+.container {
+  background-image: url(/src/assets/img/BG-Banner-Desktop-Coroa.png);
+  height: calc(100vh - 81px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  text-align: center;
+}
+
+.title-king {
+  padding-top: 10rem;
+  position: relative;
+}
+
+.subtitle-king {
+  color: white;
+  text-transform: uppercase;
+  padding-top: 1.2rem;
+  font-family: "burguerking-bold";
+  font-size: 1.9rem;
+}
+
+.slider {
+  background-color: #502314;
+  padding: 4rem 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  position: relative;
+}
+
+.laranja-king {
+  color: #ff8732;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.slider p {
+  font-family: "burguerking-sans";
+  color: white;
+  font-size: 1.6rem;
+}
+
+.slider .destacado {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.swiper {
+  width: 370px;
+  height: 400px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.location {
+  background-color: #fe8733;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.location h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "burguerking-bold";
+  color: #d62300;
+}
+
+.location-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.location-part img {
+  width: auto;
+  height: 38rem;
+}
+
+.location details {
+  padding: 2rem 4rem;
+  margin: 1rem;
+  background-color: red;
+}
+
+.locations div {
+  padding: 2rem 16rem;
+  background-color: white;
+  margin: 2rem 0;
+  border-radius: 0.4rem;
+  text-align: start;
+  font-size: 1.7rem;
+  box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.3);
+  color: #d62300;
+}
+
+.come {
+  background-color: #f5ebdc;
+  display: flex;
+  justify-content: center;
+}
+
+.container-come {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  text-align: center;
+  max-width: 1060px;
+  width: 100%;
+}
+
+.come h1 {
+  font-size: 3.5rem;
+  font-family: burguerking-bold;
+  line-height: 4rem;
+  color: #502314;
+}
+
+.come p {
+  font-family: "burguerking-sans";
+  color: #151522;
+  font-size: 1.3rem;
+}
+
+.come h2 {
+  font-size: 2rem;
+  color: #502314;
+}
+
+.come button {
+  font-family: "burguerking";
+  color: white;
+  border: none;
+  padding: 1rem 13rem;
+  background-color: #d62300;
+  font-size: 1.2rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.3);
+  transition: background .5s;
+}
+
+.come button:hover {
+  background-color: white;
+  color: #d62300;
+  border: -1px solid #d62300;
+  box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+  background-color: #502314;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  gap: 3rem;
+  text-align: center;
+}
+
+footer img {
+  width: 4rem;
+}
+
+footer a {
+  color: #f5ebdc;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer i {
+  font-size: 1.3rem;
+  padding-right: 0.4rem;
+}
